@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons8-html-5.png">
+    <style>
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0 200px;
+        }
+        h1,h2{
+            color: rebeccapurple;
+            text-decoration: underline;
+        }
+        b,strong,h3,pre,span{
+            color:crimson;
+        } 
+    </style>
+</head>
+<body>
+    <header style="height: 120px;width: 100%;text-align: center;">
+        <figure align="middle">
+            <img src="./img/fabevy-logo-landscape.png" alt="FED" width="600px">
+        </figure>
+    </header>
+    <div align="middle">
+        <figure align="middle">
+            <img src="./img/fed_banner.jpg" alt="FED" width="600px">
+        </figure>
+        <span style="font-weight:bold;font-size:30px;color: rebeccapurple;">FRONT END DEVELOPMENT</span>
+    </div>
+    <br>
+    <div align="right">
+        <a href="#">Login</a>&nbsp;&nbsp;&nbsp;<a href="registration.html">Register</a>&nbsp;
+    </div>
+    <br>
+    <hr>
+    
+    <h1>What is HTML..?</h1>
+
+    <p><strong>HTML - stands for Hyper Text Markup Language.</strong></p>
+
+    <p>HTML describes the structure of a web page. It consists of a series of elements and those elements tell the browser how to display the content.</p>
+
+    <figure align="middle">
+        <img src="./img/HTML-Basic-Format.png" alt="HTML5 Structure" width="600px" height="400px" title="HTML Structure">
+        <figcaption style="color:blue;">HTML Structure</figcaption>
+    </figure>
+    
+    <p>The <b>&lt;!DOCTYPE html&gt;</b> declaration defines that this document is an HTML5 document</p>
+
+    <p>The <b>&lt;html&gt;</b> element is the root element of an HTML page</p>
+
+    <p>The <b>&lt;head&gt;</b> element contains meta information about the HTML page</p>
+
+    <p>The <b>&lt;title&gt;</b> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</p>
+
+    <p>The <b>&lt;body&gt;</b> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+
+    <p>The <b>&lt;h1&gt;</b> to <b>&lt;h6&gt;</b> elements define headings</p>
+
+    <p>The <b>&lt;p&gt;</b> element defines a paragraph</p>
+    <br>
+    <hr>
+    
+    <h1>HTML Links</h1>
+    <p>HTML links are defined with the <b>&lt;a&gt;</b> tag.</p>
+    <p>Example: <b>&lt;a href=&quot;https://www.w3schools.com&quot; target=&quot;_blank&quot;&gt;Visit W3Schools&lt;/a&gt;</b></p>
+    <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+
+    <br><br>
+    <hr>
+
+    <h1>HTML Images</h1>
+    <p>HTML Images are defined with the <b>&lt;img&gt;</b> tag.</p>
+    <p>Use a <b>&lt;figure&gt;</b>  element to mark up a photo in a document, and a <b>&lt;figcaption&gt;</b> element to define a caption for the photo.</p>
+
+    <pre style="font-size: 16px; background-color: rgba(102, 51, 153, 0.2);">
+
+        &lt;figure align=&quot;middle&quot;&gt;
+            &lt;img src=&quot;./img/Panda.jpg&quot; alt=&quot;Panda&quot; width=&quot;600px&quot; height=&quot;300px&quot;&gt;
+            &lt;figcaption style=&quot;color:blue;&quot;&gt;Panda&lt;/figcaption&gt;
+        &lt;/figure&gt;
+    </pre>
+
+    <figure align="middle">
+        <img src="./img/Panda.jpg" alt="Panda" width="600px" height="300px">
+        <figcaption style="color:blue;">Panda</figcaption>
+    </figure>
+    <br>
+    <hr>
+
+    <h1>HTML Attributes:</h1>
+    <p>The <strong>HTML Attributes </strong>provide additional information about HTML elements.</p>
+    <p>These are always specified in the start tag. All HTML elements can have attributes.</p>
+
+    <h3>1. href:</h3>
+    <p>The <b>href</b> attribute of <b>&lt;a&gt;</b> specifies the URL of the page the link goes to.</p>
+
+    <h3>2. src:</h3>
+    <p>The <b>src</b> attribute of <b>&lt;img&gt;</b> specifies the path to the image to be displayed.</p>
+
+    <h3>3. width & height:</h3>
+    <p>The <b>width</b> and <b>height</b> attributes of <b>&lt;img&gt;</b> provide size information for images.</p>
+
+    <h3>4. alt:</h3>
+    <p>The <b>alt</b> attribute of <b>&lt;img&gt;</b> provides an alternate text for an image.</p>
+
+    <h3>5. style:</h3>
+    <p>The <b>style</b> attribute is used to add styles to an element, such as color, font, size, and more.</p>
+
+    <h3>6. title:</h3>
+    <p>The <b>title</b> attribute defines some extra information&lt; an element.</p>
+    <br>
+    <hr>
+
+    <h1>HTML Formatting Elements:</h1>
+    <p>Formatting elements were designed to display special types of text:</p>
+
+    <p>The <b>&lt;i&gt;</b> defines italic text.&nbsp;<b>eg.</b> <i> Italic</i> </p>
+    <p>The <b>&lt;b&gt;</b> defines bold text.&nbsp;<b>eg.</b><b style="color:black"> Bold</b> </p>
+    <p>The <b>&lt;strong&gt;</b> defines important text.&nbsp;<b>eg.</b> <strong style="color:black">Strong</strong> </p>
+    <p>The <b>&lt;em&gt;</b> defines emphasized text.&nbsp;<b>eg.</b> <em> Emphasize</em></p>
+    <p>The <b>&lt;small&gt;</b> defines smaller text.&nbsp;<b>eg.</b> <small> Small</small></p>
+    <p>The <b>&lt;mark&gt;</b> defines marked/highlighted text.&nbsp;<b>eg.</b> <mark> Marked/Highlighted</mark> </p>
+    <p>The <b>&lt;sup&gt;</b> defines superscripted text.&nbsp;<b>eg.</b> 2<sup>64</sup> </p>
+    <p>The <b>&lt;sub&gt;</b> defines subscripted text.&nbsp;<b>eg.</b> H<sub>2</sub>O </p>
+    <p>The <b>&lt;ins&gt;</b> defines inserted text.&nbsp;<b>eg.</b> <ins>Rs.500</ins> </p>
+    <p>The <b>&lt;del&gt;</b> defines deleted text.&nbsp;<b>eg.</b> <del>Rs.1000</del> </p>
+    <br>
+    <hr>
+
+
+    <h1>HTML Multimedia:</h1>
+    <p> HTML Multimedia can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more.</p>
+    <div>
+        <h2>HTML Audio:</h2>
+        <p>The HTML <b>&lt;audio&gt;</b> element is used to play an audio file on a web page.</p>
+        <p>The <b>controls</b> attribute adds audio controls, like play, pause, and volume.</p>
+        <p>Add <b>muted</b> and <b>autoplay</b> to let your audio file start playing automatically but muted.</p>
+
+        <pre style="font-size: 16px; background-color: rgba(102, 51, 153, 0.2);">
+
+            &lt;audio controls muted&gt;
+                &lt;source src=&quot;./audio/Let Me Love You -DJ Snake, Justin Bieber.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+                Your browser does not support the audio element.
+            &lt;/audio&gt;
+        </pre>
+        <div align="middle">
+        <h4>Let Me Love You - DJ Snake, Justin Bieber</h4>
+        <audio controls muted >
+            <source src="./audio/Let Me Love You -DJ Snake, Justin Bieber.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+        
+    </div>
+    <br>
+    <hr>
+    <div>
+        <h2>HTML Video:</h2>
+        <p>The HTML <b>&lt;video&gt;</b> element is used to play an video file on a web page.</p>
+        <p>The <b>controls</b> attribute adds video controls, like play, pause, and volume.</p>
+        <p>Add <b>muted</b> and <b>autoplay</b> to let your video file start playing automatically but muted.</p>
+
+        <pre style="font-size: 16px; background-color: rgba(102, 51, 153, 0.2);">
+
+            &lt;video width=&quot;70%&quot; height=&quot;70%&quot; controls muted&gt;
+                &lt;source src=&quot;./video/Butterfly - 20704.mp4&quot; type=&quot;video/mp4&quot;&gt;
+                Your browser does not support the video tag.
+            &lt;/video&gt;
+        </pre>
+        <br>
+        <div align="middle">
+            <video width="70%" height="70%" controls muted>
+                <source src="./video/Butterfly - 20704.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <br>
+    <hr>
+    
+    <div>
+        <h2>HTML iframe:</h2>
+        <p>The HTML <b>&lt;iframe&gt;</b> tag specifies an inline frame which is used to embed another document within the current HTML document.</p>
+        <p>The <b>height</b> and <b>width</b> attributes specify the size of the iframe.</p>
+
+        <pre style="font-size: 16px; background-color: rgba(102, 51, 153, 0.2);">
+
+            &lt;iframe width=&quot;800px&quot; height=&quot;500px&quot; src=&quot;https://www.youtube.com/embed/EZASl9RXfCw&quot;
+                title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;
+            &lt;/iframe&gt;
+        </pre>
+        <div align="middle">
+            <iframe width="800px" height="500px" src="https://www.youtube.com/embed/EZASl9RXfCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+    </div>
+	<div>
+        <h2>Iframe - Target for a Link</h2>
+        <p>An <b>&lt;iframe&gt;</b> can be used as the target frame for a link.</p>
+        <p>The <b>target</b> attribute of the link must refer to the <b>name</b> attribute of the iframe.</p>
+        <pre style="font-size: 16px; background-color: rgba(102, 51, 153, 0.2);">
+
+        &lt;iframe src=&quot;https://www.zoho.com/&quot; name=&quot;iframe_a&quot; height=&quot;500px&quot; width=&quot;900px&quot;title=&quot;Iframe Example&quot;&gt;&lt;/iframe&gt;
+
+        &lt;a href=&quot;https://www.zoho.com/&quot; target=&quot;iframe_a&quot;&gt;Zoho Website&lt;/a&gt;
+        &lt;a href=&quot;https://www.youtube.com/embed/j-DV1KZZmwc&quot; target=&quot;iframe_a&quot;&gt;Zoho Office Tour&lt;/a&gt;
+        </pre>
+        <div align="middle">
+            <iframe src="https://www.zoho.com/" name="iframe_a" height="500px" width="900px" title="Iframe Example"></iframe>
+            <div>
+                <br>
+                <a href="https://www.zoho.com/" target="iframe_a">Zoho Website</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/embed/j-DV1KZZmwc" target="iframe_a">Zoho Office Tour</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.188732910938!2d80.04716821461037!3d12.831077590948176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260db1ff54b03%3A0xa8af6b8bb6419d6f!2sZoho%20Corporation!5e0!3m2!1sen!2sin!4v1667650184863!5m2!1sen!2sin" target="iframe_a">Zoho - Map</a>
+            </div>
+        </div>
+		
+	</div>
+    <br>
+    <hr>
+
+
+
+</body>
+</html>
